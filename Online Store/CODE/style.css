@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    font-family: Lato;
+}
+
+body {
+    background-color: #302D47;
+    margin: 0;
+    height: 100svh;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+
+button {
+    font-family: inherit;
+}
+
+input {
+    background-color: #3F3D56;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: #D2D2D2; 
+    width: 316px;
+    height: 40px;
+}
+
+.field-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 316px;
+}
+
+.text-link {
+    color: #BFBFBF;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.deafault-button {
+    background-color: #6C63FF;
+    border: 1px solid #6C63FF;
+    height: 40px;
+    width: 152px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 300ms;
+    width: 100%;
+}
+
+.deafault-button:hover {
+    border: 1px solid #6C63FF;
+    background-color: transparent;
+    color: #6C63FF;
+}
+
+.button-link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtitle {
+    color: #BFBFBF;   
+    margin: 400;
+    font-weight: bold;
+}
+
+.create-account-wrapper {
+    margin-top: 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 316px;
+}
+
+.small-button {
+    width: 152px;
+}
+
+.logo-title {
+    color: #FFFFFF;
+    font-size: 109px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 80px;
+}
+
+.logo-subtitle {
+    color: #BFBFBF;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.login-form {
+    margin-top: 89px;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-login {
+    width: 40%;
+    height: 811;    
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.small-logo .logo-title {
+    font-size: 51px;
+    line-height: 49px;
+}
+
+.small-logo .subtitle {
+    font-size: 11px;
+}
+
+.welcome-message {
+    color:#BFBFBF;
+    font-size: 20px;
+}
+
+.fit-content-button {
+    width: fit-content;
+}
+
+.padding-x-medium {
+    padding: 0 50px;
+}
+
+.padding-x-small {
+    padding: 0 33px;
+}
+
+.red-button {
+    background-color: #EE4C4C;
+    border: 1px solid #EE4C4C;
+}
+
+.red-button:hover {
+    border: 1px solid #EE4C4C;
+    color: #EE4C4C;
+}
+
+.header-store {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-welcome-wreapper {
+    display: flex;
+    
+}
